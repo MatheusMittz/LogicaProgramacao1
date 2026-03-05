@@ -28,15 +28,3 @@ class Heroi {
     console.log(`o ${this.tipo} atacou usando ${ataque}`);
   }
 }
-
-const herois = [
-  new Heroi("Gandalf", 2000, "Mago"),
-  new Heroi("Conan", 35, "Guerreiro"),
-  new Heroi("Aang", 112, "Monge"),
-  new Heroi("Naruto", 17, "Ninja")
-];
-
-console.log("--- Iniciando os ataques ---");
-for (const heroi of herois) {
-  heroi.atacar();
-}
