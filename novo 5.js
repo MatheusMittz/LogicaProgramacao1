@@ -2,7 +2,7 @@ class Heroi {
   constructor(nome, idade, tipo) {
     this.nome = nome;
     this.idade = idade;
-    this.tipo = tipo.toLowerCase(); // Garante que o tipo fique em letras minúsculas
+    this.tipo = tipo.toLowerCase();
   }
 
   atacar() {
